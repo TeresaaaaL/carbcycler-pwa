@@ -1,0 +1,3502 @@
+{
+  "version": 1,
+  "units": "per_100g",
+  "foods": [
+    {
+      "id": "rice",
+      "name_en": "Rice",
+      "name_zh": "大米",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 365,
+          "p": 7.1,
+          "c": 77.2,
+          "f": 0.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 130,
+          "p": 2.7,
+          "c": 28.0,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "chicken_breast_cooked",
+      "name_en": "Chicken Breast (Cooked)",
+      "name_zh": "鸡胸肉(熟)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 165.0,
+          "p": 31.0,
+          "c": 0.0,
+          "f": 3.6
+        },
+        {
+          "basis": "cooked",
+          "kcal": 165.0,
+          "p": 31.0,
+          "c": 0.0,
+          "f": 3.6
+        }
+      ]
+    },
+    {
+      "id": "chicken_thigh_cooked",
+      "name_en": "Chicken Thigh (Cooked)",
+      "name_zh": "Chicken Thigh (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 209.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 10.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 209.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 10.9
+        }
+      ]
+    },
+    {
+      "id": "turkey_breast_cooked",
+      "name_en": "Turkey Breast (Cooked)",
+      "name_zh": "Turkey Breast (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 135.0,
+          "p": 29.0,
+          "c": 0.0,
+          "f": 1.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 135.0,
+          "p": 29.0,
+          "c": 0.0,
+          "f": 1.0
+        }
+      ]
+    },
+    {
+      "id": "lean_ground_beef_90",
+      "name_en": "Lean Ground Beef 90%",
+      "name_zh": "Lean Ground Beef 90%",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 217.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 12.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 217.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 12.0
+        }
+      ]
+    },
+    {
+      "id": "beef_sirloin_cooked",
+      "name_en": "Beef Sirloin (Cooked)",
+      "name_zh": "Beef Sirloin (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 206.0,
+          "p": 27.0,
+          "c": 0.0,
+          "f": 10.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 206.0,
+          "p": 27.0,
+          "c": 0.0,
+          "f": 10.5
+        }
+      ]
+    },
+    {
+      "id": "pork_tenderloin_cooked",
+      "name_en": "Pork Tenderloin (Cooked)",
+      "name_zh": "Pork Tenderloin (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 143.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 3.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 143.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 3.5
+        }
+      ]
+    },
+    {
+      "id": "pork_loin_cooked",
+      "name_en": "Pork Loin (Cooked)",
+      "name_zh": "Pork Loin (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 242.0,
+          "p": 27.0,
+          "c": 0.0,
+          "f": 14.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 242.0,
+          "p": 27.0,
+          "c": 0.0,
+          "f": 14.0
+        }
+      ]
+    },
+    {
+      "id": "lamb_leg_cooked",
+      "name_en": "Lamb Leg (Cooked)",
+      "name_zh": "Lamb Leg (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 206.0,
+          "p": 25.0,
+          "c": 0.0,
+          "f": 11.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 206.0,
+          "p": 25.0,
+          "c": 0.0,
+          "f": 11.0
+        }
+      ]
+    },
+    {
+      "id": "shrimp_cooked",
+      "name_en": "Shrimp (Cooked)",
+      "name_zh": "Shrimp (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 99.0,
+          "p": 24.0,
+          "c": 0.2,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 99.0,
+          "p": 24.0,
+          "c": 0.2,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cod_cooked",
+      "name_en": "Cod (Cooked)",
+      "name_zh": "Cod (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 105.0,
+          "p": 23.0,
+          "c": 0.0,
+          "f": 0.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 105.0,
+          "p": 23.0,
+          "c": 0.0,
+          "f": 0.9
+        }
+      ]
+    },
+    {
+      "id": "tilapia_cooked",
+      "name_en": "Tilapia (Cooked)",
+      "name_zh": "Tilapia (Cooked)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 128.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 2.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 128.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 2.7
+        }
+      ]
+    },
+    {
+      "id": "tuna_water_packed",
+      "name_en": "Tuna (Water Packed)",
+      "name_zh": "Tuna (Water Packed)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 116.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 1.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 116.0,
+          "p": 26.0,
+          "c": 0.0,
+          "f": 1.0
+        }
+      ]
+    },
+    {
+      "id": "salmon_cooked",
+      "name_en": "Salmon (Cooked)",
+      "name_zh": "三文鱼(熟)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 208.0,
+          "p": 25.0,
+          "c": 0.0,
+          "f": 12.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 208.0,
+          "p": 25.0,
+          "c": 0.0,
+          "f": 12.0
+        }
+      ]
+    },
+    {
+      "id": "sardines_canned",
+      "name_en": "Sardines (Canned)",
+      "name_zh": "Sardines (Canned)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 208.0,
+          "p": 25.0,
+          "c": 0.0,
+          "f": 11.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 208.0,
+          "p": 25.0,
+          "c": 0.0,
+          "f": 11.0
+        }
+      ]
+    },
+    {
+      "id": "egg_whole",
+      "name_en": "Egg Whole",
+      "name_zh": "全蛋",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 143.0,
+          "p": 12.6,
+          "c": 1.1,
+          "f": 9.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 143.0,
+          "p": 12.6,
+          "c": 1.1,
+          "f": 9.5
+        }
+      ]
+    },
+    {
+      "id": "egg_white",
+      "name_en": "Egg White",
+      "name_zh": "Egg White",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 52.0,
+          "p": 10.9,
+          "c": 0.7,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 52.0,
+          "p": 10.9,
+          "c": 0.7,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "firm_tofu",
+      "name_en": "Firm Tofu",
+      "name_zh": "Firm Tofu",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 144.0,
+          "p": 15.7,
+          "c": 3.9,
+          "f": 8.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 144.0,
+          "p": 15.7,
+          "c": 3.9,
+          "f": 8.7
+        }
+      ]
+    },
+    {
+      "id": "silken_tofu",
+      "name_en": "Silken Tofu",
+      "name_zh": "Silken Tofu",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 55.0,
+          "p": 4.8,
+          "c": 2.0,
+          "f": 2.8
+        },
+        {
+          "basis": "cooked",
+          "kcal": 55.0,
+          "p": 4.8,
+          "c": 2.0,
+          "f": 2.8
+        }
+      ]
+    },
+    {
+      "id": "tempeh",
+      "name_en": "Tempeh",
+      "name_zh": "Tempeh",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 193.0,
+          "p": 20.3,
+          "c": 9.4,
+          "f": 10.8
+        },
+        {
+          "basis": "cooked",
+          "kcal": 193.0,
+          "p": 20.3,
+          "c": 9.4,
+          "f": 10.8
+        }
+      ]
+    },
+    {
+      "id": "edamame_shelled",
+      "name_en": "Edamame Shelled",
+      "name_zh": "Edamame Shelled",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 121.0,
+          "p": 11.9,
+          "c": 8.9,
+          "f": 5.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 121.0,
+          "p": 11.9,
+          "c": 8.9,
+          "f": 5.2
+        }
+      ]
+    },
+    {
+      "id": "seitan",
+      "name_en": "Seitan",
+      "name_zh": "Seitan",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 143.0,
+          "p": 25.0,
+          "c": 6.0,
+          "f": 2.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 143.0,
+          "p": 25.0,
+          "c": 6.0,
+          "f": 2.0
+        }
+      ]
+    },
+    {
+      "id": "chicken_sausage",
+      "name_en": "Chicken Sausage",
+      "name_zh": "Chicken Sausage",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 190.0,
+          "p": 16.0,
+          "c": 3.0,
+          "f": 12.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 190.0,
+          "p": 16.0,
+          "c": 3.0,
+          "f": 12.0
+        }
+      ]
+    },
+    {
+      "id": "chinese_braised_beef_shank",
+      "name_en": "Chinese Braised Beef Shank",
+      "name_zh": "中式卤牛腱",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 185.0,
+          "p": 28.0,
+          "c": 2.0,
+          "f": 7.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 185.0,
+          "p": 28.0,
+          "c": 2.0,
+          "f": 7.0
+        }
+      ]
+    },
+    {
+      "id": "steamed_white_fish_chinese_style",
+      "name_en": "Steamed White Fish (Chinese Style)",
+      "name_zh": "清蒸白鱼",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 118.0,
+          "p": 22.0,
+          "c": 1.0,
+          "f": 2.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 118.0,
+          "p": 22.0,
+          "c": 1.0,
+          "f": 2.5
+        }
+      ]
+    },
+    {
+      "id": "mapo_tofu_homestyle",
+      "name_en": "Mapo Tofu (Homestyle)",
+      "name_zh": "家常麻婆豆腐",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 180.0,
+          "p": 10.0,
+          "c": 6.0,
+          "f": 12.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 180.0,
+          "p": 10.0,
+          "c": 6.0,
+          "f": 12.0
+        }
+      ]
+    },
+    {
+      "id": "beef_meatballs",
+      "name_en": "Beef Meatballs",
+      "name_zh": "Beef Meatballs",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 250.0,
+          "p": 17.0,
+          "c": 6.0,
+          "f": 17.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 250.0,
+          "p": 17.0,
+          "c": 6.0,
+          "f": 17.0
+        }
+      ]
+    },
+    {
+      "id": "duck_breast_roasted",
+      "name_en": "Duck Breast (Roasted)",
+      "name_zh": "Duck Breast (Roasted)",
+      "category": "protein",
+      "emoji": "🍗",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 201.0,
+          "p": 23.0,
+          "c": 0.0,
+          "f": 11.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 201.0,
+          "p": 23.0,
+          "c": 0.0,
+          "f": 11.0
+        }
+      ]
+    },
+    {
+      "id": "rice_cooked_white",
+      "name_en": "Rice (Cooked White)",
+      "name_zh": "白米饭",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 130.0,
+          "p": 2.4,
+          "c": 28.2,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 130.0,
+          "p": 2.4,
+          "c": 28.2,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "rice_cooked_brown",
+      "name_en": "Rice (Cooked Brown)",
+      "name_zh": "糙米饭",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 123.0,
+          "p": 2.7,
+          "c": 25.6,
+          "f": 1.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 123.0,
+          "p": 2.7,
+          "c": 25.6,
+          "f": 1.0
+        }
+      ]
+    },
+    {
+      "id": "jasmine_rice_cooked",
+      "name_en": "Jasmine Rice (Cooked)",
+      "name_zh": "茉莉香米饭",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 129.0,
+          "p": 2.7,
+          "c": 28.0,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 129.0,
+          "p": 2.7,
+          "c": 28.0,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "basmati_rice_cooked",
+      "name_en": "Basmati Rice (Cooked)",
+      "name_zh": "印度香米饭",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 121.0,
+          "p": 3.5,
+          "c": 25.2,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 121.0,
+          "p": 3.5,
+          "c": 25.2,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "congee_plain",
+      "name_en": "Congee Plain",
+      "name_zh": "白粥",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 55.0,
+          "p": 1.2,
+          "c": 12.0,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 55.0,
+          "p": 1.2,
+          "c": 12.0,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "oats_dry",
+      "name_en": "Oats (Dry)",
+      "name_zh": "燕麦",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 389.0,
+          "p": 16.9,
+          "c": 66.3,
+          "f": 6.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 389.0,
+          "p": 16.9,
+          "c": 66.3,
+          "f": 6.9
+        }
+      ]
+    },
+    {
+      "id": "quinoa_cooked",
+      "name_en": "Quinoa (Cooked)",
+      "name_zh": "藜麦",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 120.0,
+          "p": 4.4,
+          "c": 21.3,
+          "f": 1.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 120.0,
+          "p": 4.4,
+          "c": 21.3,
+          "f": 1.9
+        }
+      ]
+    },
+    {
+      "id": "barley_cooked",
+      "name_en": "Barley (Cooked)",
+      "name_zh": "Barley (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 123.0,
+          "p": 2.3,
+          "c": 28.2,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 123.0,
+          "p": 2.3,
+          "c": 28.2,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "bulgur_cooked",
+      "name_en": "Bulgur (Cooked)",
+      "name_zh": "Bulgur (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 83.0,
+          "p": 3.1,
+          "c": 18.6,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 83.0,
+          "p": 3.1,
+          "c": 18.6,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "whole_wheat_bread",
+      "name_en": "Whole Wheat Bread",
+      "name_zh": "Whole Wheat Bread",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 247.0,
+          "p": 12.5,
+          "c": 41.0,
+          "f": 4.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 247.0,
+          "p": 12.5,
+          "c": 41.0,
+          "f": 4.2
+        }
+      ]
+    },
+    {
+      "id": "sourdough_bread",
+      "name_en": "Sourdough Bread",
+      "name_zh": "Sourdough Bread",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 289.0,
+          "p": 9.0,
+          "c": 56.0,
+          "f": 2.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 289.0,
+          "p": 9.0,
+          "c": 56.0,
+          "f": 2.7
+        }
+      ]
+    },
+    {
+      "id": "bagel_plain",
+      "name_en": "Bagel Plain",
+      "name_zh": "Bagel Plain",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 250.0,
+          "p": 10.0,
+          "c": 49.0,
+          "f": 1.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 250.0,
+          "p": 10.0,
+          "c": 49.0,
+          "f": 1.5
+        }
+      ]
+    },
+    {
+      "id": "corn_tortilla",
+      "name_en": "Corn Tortilla",
+      "name_zh": "Corn Tortilla",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 218.0,
+          "p": 5.7,
+          "c": 44.6,
+          "f": 2.8
+        },
+        {
+          "basis": "cooked",
+          "kcal": 218.0,
+          "p": 5.7,
+          "c": 44.6,
+          "f": 2.8
+        }
+      ]
+    },
+    {
+      "id": "flour_tortilla",
+      "name_en": "Flour Tortilla",
+      "name_zh": "Flour Tortilla",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 304.0,
+          "p": 8.0,
+          "c": 50.0,
+          "f": 7.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 304.0,
+          "p": 8.0,
+          "c": 50.0,
+          "f": 7.0
+        }
+      ]
+    },
+    {
+      "id": "pasta_cooked",
+      "name_en": "Pasta (Cooked)",
+      "name_zh": "意大利面",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 131.0,
+          "p": 5.0,
+          "c": 25.0,
+          "f": 1.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 131.0,
+          "p": 5.0,
+          "c": 25.0,
+          "f": 1.1
+        }
+      ]
+    },
+    {
+      "id": "spaghetti_cooked",
+      "name_en": "Spaghetti (Cooked)",
+      "name_zh": "意面",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 158.0,
+          "p": 5.8,
+          "c": 31.0,
+          "f": 0.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 158.0,
+          "p": 5.8,
+          "c": 31.0,
+          "f": 0.9
+        }
+      ]
+    },
+    {
+      "id": "udon_noodles_cooked",
+      "name_en": "Udon Noodles (Cooked)",
+      "name_zh": "Udon Noodles (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 127.0,
+          "p": 3.5,
+          "c": 25.0,
+          "f": 0.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 127.0,
+          "p": 3.5,
+          "c": 25.0,
+          "f": 0.5
+        }
+      ]
+    },
+    {
+      "id": "soba_noodles_cooked",
+      "name_en": "Soba Noodles (Cooked)",
+      "name_zh": "Soba Noodles (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 99.0,
+          "p": 5.1,
+          "c": 21.4,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 99.0,
+          "p": 5.1,
+          "c": 21.4,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "rice_noodles_cooked",
+      "name_en": "Rice Noodles (Cooked)",
+      "name_zh": "Rice Noodles (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 109.0,
+          "p": 1.8,
+          "c": 24.9,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 109.0,
+          "p": 1.8,
+          "c": 24.9,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "sweet_potato_baked",
+      "name_en": "Sweet Potato (Baked)",
+      "name_zh": "烤红薯",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 90.0,
+          "p": 2.0,
+          "c": 20.7,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 90.0,
+          "p": 2.0,
+          "c": 20.7,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "potato_baked",
+      "name_en": "Potato (Baked)",
+      "name_zh": "烤土豆",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 93.0,
+          "p": 2.5,
+          "c": 21.2,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 93.0,
+          "p": 2.5,
+          "c": 21.2,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "yam_boiled",
+      "name_en": "Yam (Boiled)",
+      "name_zh": "Yam (Boiled)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 116.0,
+          "p": 1.5,
+          "c": 27.5,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 116.0,
+          "p": 1.5,
+          "c": 27.5,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "corn_kernels_cooked",
+      "name_en": "Corn Kernels (Cooked)",
+      "name_zh": "Corn Kernels (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 96.0,
+          "p": 3.4,
+          "c": 21.0,
+          "f": 1.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 96.0,
+          "p": 3.4,
+          "c": 21.0,
+          "f": 1.5
+        }
+      ]
+    },
+    {
+      "id": "pumpkin_steamed",
+      "name_en": "Pumpkin (Steamed)",
+      "name_zh": "Pumpkin (Steamed)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 26.0,
+          "p": 1.0,
+          "c": 6.5,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 26.0,
+          "p": 1.0,
+          "c": 6.5,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lentils_cooked",
+      "name_en": "Lentils (Cooked)",
+      "name_zh": "Lentils (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 116.0,
+          "p": 9.0,
+          "c": 20.1,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 116.0,
+          "p": 9.0,
+          "c": 20.1,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "chickpeas_cooked",
+      "name_en": "Chickpeas (Cooked)",
+      "name_zh": "Chickpeas (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 164.0,
+          "p": 8.9,
+          "c": 27.4,
+          "f": 2.6
+        },
+        {
+          "basis": "cooked",
+          "kcal": 164.0,
+          "p": 8.9,
+          "c": 27.4,
+          "f": 2.6
+        }
+      ]
+    },
+    {
+      "id": "black_beans_cooked",
+      "name_en": "Black Beans (Cooked)",
+      "name_zh": "Black Beans (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 132.0,
+          "p": 8.9,
+          "c": 23.7,
+          "f": 0.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 132.0,
+          "p": 8.9,
+          "c": 23.7,
+          "f": 0.5
+        }
+      ]
+    },
+    {
+      "id": "kidney_beans_cooked",
+      "name_en": "Kidney Beans (Cooked)",
+      "name_zh": "Kidney Beans (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 127.0,
+          "p": 8.7,
+          "c": 22.8,
+          "f": 0.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 127.0,
+          "p": 8.7,
+          "c": 22.8,
+          "f": 0.5
+        }
+      ]
+    },
+    {
+      "id": "red_bean_paste_sweetened",
+      "name_en": "Red Bean Paste (Sweetened)",
+      "name_zh": "Red Bean Paste (Sweetened)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 235.0,
+          "p": 6.0,
+          "c": 48.0,
+          "f": 1.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 235.0,
+          "p": 6.0,
+          "c": 48.0,
+          "f": 1.0
+        }
+      ]
+    },
+    {
+      "id": "mantou_steamed_bun",
+      "name_en": "Mantou (Steamed Bun)",
+      "name_zh": "Mantou (Steamed Bun)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 223.0,
+          "p": 7.0,
+          "c": 46.0,
+          "f": 1.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 223.0,
+          "p": 7.0,
+          "c": 46.0,
+          "f": 1.3
+        }
+      ]
+    },
+    {
+      "id": "bao_bun_plain",
+      "name_en": "Bao Bun Plain",
+      "name_zh": "Bao Bun Plain",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 230.0,
+          "p": 7.5,
+          "c": 45.0,
+          "f": 2.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 230.0,
+          "p": 7.5,
+          "c": 45.0,
+          "f": 2.2
+        }
+      ]
+    },
+    {
+      "id": "wonton_noodles_cooked",
+      "name_en": "Wonton Noodles (Cooked)",
+      "name_zh": "Wonton Noodles (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 138.0,
+          "p": 5.0,
+          "c": 27.0,
+          "f": 1.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 138.0,
+          "p": 5.0,
+          "c": 27.0,
+          "f": 1.5
+        }
+      ]
+    },
+    {
+      "id": "farro_cooked",
+      "name_en": "Farro (Cooked)",
+      "name_zh": "Farro (Cooked)",
+      "category": "carb",
+      "emoji": "🍚",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 125.0,
+          "p": 4.2,
+          "c": 25.0,
+          "f": 0.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 125.0,
+          "p": 4.2,
+          "c": 25.0,
+          "f": 0.9
+        }
+      ]
+    },
+    {
+      "id": "olive_oil",
+      "name_en": "Olive Oil",
+      "name_zh": "橄榄油",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        }
+      ]
+    },
+    {
+      "id": "avocado_oil",
+      "name_en": "Avocado Oil",
+      "name_zh": "Avocado Oil",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        }
+      ]
+    },
+    {
+      "id": "canola_oil",
+      "name_en": "Canola Oil",
+      "name_zh": "Canola Oil",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        }
+      ]
+    },
+    {
+      "id": "sesame_oil",
+      "name_en": "Sesame Oil",
+      "name_zh": "Sesame Oil",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 884.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        }
+      ]
+    },
+    {
+      "id": "coconut_oil",
+      "name_en": "Coconut Oil",
+      "name_zh": "Coconut Oil",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 892.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 892.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "name_en": "Butter",
+      "name_zh": "Butter",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 717.0,
+          "p": 0.9,
+          "c": 0.1,
+          "f": 81.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 717.0,
+          "p": 0.9,
+          "c": 0.1,
+          "f": 81.1
+        }
+      ]
+    },
+    {
+      "id": "ghee",
+      "name_en": "Ghee",
+      "name_zh": "Ghee",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 900.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 900.0,
+          "p": 0.0,
+          "c": 0.0,
+          "f": 100.0
+        }
+      ]
+    },
+    {
+      "id": "mayonnaise",
+      "name_en": "Mayonnaise",
+      "name_zh": "Mayonnaise",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 680.0,
+          "p": 1.0,
+          "c": 0.6,
+          "f": 75.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 680.0,
+          "p": 1.0,
+          "c": 0.6,
+          "f": 75.0
+        }
+      ]
+    },
+    {
+      "id": "peanut_butter",
+      "name_en": "Peanut Butter",
+      "name_zh": "Peanut Butter",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 588.0,
+          "p": 25.0,
+          "c": 20.0,
+          "f": 50.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 588.0,
+          "p": 25.0,
+          "c": 20.0,
+          "f": 50.0
+        }
+      ]
+    },
+    {
+      "id": "almond_butter",
+      "name_en": "Almond Butter",
+      "name_zh": "Almond Butter",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 614.0,
+          "p": 21.0,
+          "c": 19.0,
+          "f": 56.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 614.0,
+          "p": 21.0,
+          "c": 19.0,
+          "f": 56.0
+        }
+      ]
+    },
+    {
+      "id": "tahini",
+      "name_en": "Tahini",
+      "name_zh": "Tahini",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 595.0,
+          "p": 17.0,
+          "c": 21.0,
+          "f": 54.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 595.0,
+          "p": 17.0,
+          "c": 21.0,
+          "f": 54.0
+        }
+      ]
+    },
+    {
+      "id": "walnuts",
+      "name_en": "Walnuts",
+      "name_zh": "Walnuts",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 654.0,
+          "p": 15.2,
+          "c": 13.7,
+          "f": 65.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 654.0,
+          "p": 15.2,
+          "c": 13.7,
+          "f": 65.2
+        }
+      ]
+    },
+    {
+      "id": "almonds",
+      "name_en": "Almonds",
+      "name_zh": "Almonds",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 579.0,
+          "p": 21.2,
+          "c": 21.6,
+          "f": 49.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 579.0,
+          "p": 21.2,
+          "c": 21.6,
+          "f": 49.9
+        }
+      ]
+    },
+    {
+      "id": "cashews",
+      "name_en": "Cashews",
+      "name_zh": "Cashews",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 553.0,
+          "p": 18.2,
+          "c": 30.2,
+          "f": 43.8
+        },
+        {
+          "basis": "cooked",
+          "kcal": 553.0,
+          "p": 18.2,
+          "c": 30.2,
+          "f": 43.8
+        }
+      ]
+    },
+    {
+      "id": "pistachios",
+      "name_en": "Pistachios",
+      "name_zh": "Pistachios",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 562.0,
+          "p": 20.2,
+          "c": 27.2,
+          "f": 45.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 562.0,
+          "p": 20.2,
+          "c": 27.2,
+          "f": 45.3
+        }
+      ]
+    },
+    {
+      "id": "macadamia_nuts",
+      "name_en": "Macadamia Nuts",
+      "name_zh": "Macadamia Nuts",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 718.0,
+          "p": 7.9,
+          "c": 13.8,
+          "f": 75.8
+        },
+        {
+          "basis": "cooked",
+          "kcal": 718.0,
+          "p": 7.9,
+          "c": 13.8,
+          "f": 75.8
+        }
+      ]
+    },
+    {
+      "id": "pecans",
+      "name_en": "Pecans",
+      "name_zh": "Pecans",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 691.0,
+          "p": 9.2,
+          "c": 13.9,
+          "f": 72.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 691.0,
+          "p": 9.2,
+          "c": 13.9,
+          "f": 72.0
+        }
+      ]
+    },
+    {
+      "id": "chia_seeds",
+      "name_en": "Chia Seeds",
+      "name_zh": "Chia Seeds",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 486.0,
+          "p": 16.5,
+          "c": 42.1,
+          "f": 30.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 486.0,
+          "p": 16.5,
+          "c": 42.1,
+          "f": 30.7
+        }
+      ]
+    },
+    {
+      "id": "flax_seeds",
+      "name_en": "Flax Seeds",
+      "name_zh": "Flax Seeds",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 534.0,
+          "p": 18.3,
+          "c": 28.9,
+          "f": 42.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 534.0,
+          "p": 18.3,
+          "c": 28.9,
+          "f": 42.2
+        }
+      ]
+    },
+    {
+      "id": "sunflower_seeds",
+      "name_en": "Sunflower Seeds",
+      "name_zh": "Sunflower Seeds",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 584.0,
+          "p": 20.8,
+          "c": 20.0,
+          "f": 51.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 584.0,
+          "p": 20.8,
+          "c": 20.0,
+          "f": 51.5
+        }
+      ]
+    },
+    {
+      "id": "pumpkin_seeds",
+      "name_en": "Pumpkin Seeds",
+      "name_zh": "Pumpkin Seeds",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 559.0,
+          "p": 30.2,
+          "c": 10.7,
+          "f": 49.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 559.0,
+          "p": 30.2,
+          "c": 10.7,
+          "f": 49.0
+        }
+      ]
+    },
+    {
+      "id": "avocado",
+      "name_en": "Avocado",
+      "name_zh": "牛油果",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 160.0,
+          "p": 2.0,
+          "c": 8.5,
+          "f": 14.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 160.0,
+          "p": 2.0,
+          "c": 8.5,
+          "f": 14.7
+        }
+      ]
+    },
+    {
+      "id": "black_olives",
+      "name_en": "Black Olives",
+      "name_zh": "Black Olives",
+      "category": "fat",
+      "emoji": "🥑",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 116.0,
+          "p": 0.8,
+          "c": 6.0,
+          "f": 10.9
+        },
+        {
+          "basis": "cooked",
+          "kcal": 116.0,
+          "p": 0.8,
+          "c": 6.0,
+          "f": 10.9
+        }
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name_en": "Broccoli",
+      "name_zh": "Broccoli",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 34.0,
+          "p": 2.8,
+          "c": 6.6,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 34.0,
+          "p": 2.8,
+          "c": 6.6,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "spinach",
+      "name_en": "Spinach",
+      "name_zh": "Spinach",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 23.0,
+          "p": 2.9,
+          "c": 3.6,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 23.0,
+          "p": 2.9,
+          "c": 3.6,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "kale",
+      "name_en": "Kale",
+      "name_zh": "Kale",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 35.0,
+          "p": 2.9,
+          "c": 4.4,
+          "f": 1.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 35.0,
+          "p": 2.9,
+          "c": 4.4,
+          "f": 1.5
+        }
+      ]
+    },
+    {
+      "id": "romaine_lettuce",
+      "name_en": "Romaine Lettuce",
+      "name_zh": "Romaine Lettuce",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 17.0,
+          "p": 1.2,
+          "c": 3.3,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 17.0,
+          "p": 1.2,
+          "c": 3.3,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "iceberg_lettuce",
+      "name_en": "Iceberg Lettuce",
+      "name_zh": "Iceberg Lettuce",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 14.0,
+          "p": 0.9,
+          "c": 3.0,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 14.0,
+          "p": 0.9,
+          "c": 3.0,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "cabbage",
+      "name_en": "Cabbage",
+      "name_zh": "Cabbage",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 25.0,
+          "p": 1.3,
+          "c": 5.8,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 25.0,
+          "p": 1.3,
+          "c": 5.8,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "napa_cabbage",
+      "name_en": "Napa Cabbage",
+      "name_zh": "大白菜",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 16.0,
+          "p": 1.2,
+          "c": 3.2,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 16.0,
+          "p": 1.2,
+          "c": 3.2,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "bok_choy",
+      "name_en": "Bok Choy",
+      "name_zh": "上海青",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 13.0,
+          "p": 1.5,
+          "c": 2.2,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 13.0,
+          "p": 1.5,
+          "c": 2.2,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "chinese_broccoli_gai_lan",
+      "name_en": "Chinese Broccoli (Gai Lan)",
+      "name_zh": "Chinese Broccoli (Gai Lan)",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 19.0,
+          "p": 2.6,
+          "c": 3.0,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 19.0,
+          "p": 2.6,
+          "c": 3.0,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "choy_sum",
+      "name_en": "Choy Sum",
+      "name_zh": "Choy Sum",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 20.0,
+          "p": 2.2,
+          "c": 3.4,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 20.0,
+          "p": 2.2,
+          "c": 3.4,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cauliflower",
+      "name_en": "Cauliflower",
+      "name_zh": "Cauliflower",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 25.0,
+          "p": 1.9,
+          "c": 5.0,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 25.0,
+          "p": 1.9,
+          "c": 5.0,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name_en": "Carrot",
+      "name_zh": "Carrot",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 41.0,
+          "p": 0.9,
+          "c": 9.6,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 41.0,
+          "p": 0.9,
+          "c": 9.6,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name_en": "Zucchini",
+      "name_zh": "Zucchini",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 17.0,
+          "p": 1.2,
+          "c": 3.1,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 17.0,
+          "p": 1.2,
+          "c": 3.1,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "bell_pepper",
+      "name_en": "Bell Pepper",
+      "name_zh": "Bell Pepper",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 31.0,
+          "p": 1.0,
+          "c": 6.0,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 31.0,
+          "p": 1.0,
+          "c": 6.0,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "name_en": "Tomato",
+      "name_zh": "Tomato",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 18.0,
+          "p": 0.9,
+          "c": 3.9,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 18.0,
+          "p": 0.9,
+          "c": 3.9,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name_en": "Cucumber",
+      "name_zh": "Cucumber",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 15.0,
+          "p": 0.7,
+          "c": 3.6,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 15.0,
+          "p": 0.7,
+          "c": 3.6,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "eggplant",
+      "name_en": "Eggplant",
+      "name_zh": "Eggplant",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 25.0,
+          "p": 1.0,
+          "c": 5.9,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 25.0,
+          "p": 1.0,
+          "c": 5.9,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "mushrooms",
+      "name_en": "Mushrooms",
+      "name_zh": "Mushrooms",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 22.0,
+          "p": 3.1,
+          "c": 3.3,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 22.0,
+          "p": 3.1,
+          "c": 3.3,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name_en": "Onion",
+      "name_zh": "Onion",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 40.0,
+          "p": 1.1,
+          "c": 9.3,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 40.0,
+          "p": 1.1,
+          "c": 9.3,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "snow_peas",
+      "name_en": "Snow Peas",
+      "name_zh": "Snow Peas",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 42.0,
+          "p": 2.8,
+          "c": 7.5,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 42.0,
+          "p": 2.8,
+          "c": 7.5,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "green_beans",
+      "name_en": "Green Beans",
+      "name_zh": "Green Beans",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 31.0,
+          "p": 1.8,
+          "c": 7.0,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 31.0,
+          "p": 1.8,
+          "c": 7.0,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "asparagus",
+      "name_en": "Asparagus",
+      "name_zh": "Asparagus",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 20.0,
+          "p": 2.2,
+          "c": 3.9,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 20.0,
+          "p": 2.2,
+          "c": 3.9,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "celery",
+      "name_en": "Celery",
+      "name_zh": "Celery",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 16.0,
+          "p": 0.7,
+          "c": 3.0,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 16.0,
+          "p": 0.7,
+          "c": 3.0,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "bean_sprouts",
+      "name_en": "Bean Sprouts",
+      "name_zh": "Bean Sprouts",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 30.0,
+          "p": 3.0,
+          "c": 5.9,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 30.0,
+          "p": 3.0,
+          "c": 5.9,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "daikon_radish",
+      "name_en": "Daikon Radish",
+      "name_zh": "Daikon Radish",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 18.0,
+          "p": 0.6,
+          "c": 4.1,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 18.0,
+          "p": 0.6,
+          "c": 4.1,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "lotus_root",
+      "name_en": "Lotus Root",
+      "name_zh": "Lotus Root",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 74.0,
+          "p": 2.6,
+          "c": 17.2,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 74.0,
+          "p": 2.6,
+          "c": 17.2,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "bamboo_shoots",
+      "name_en": "Bamboo Shoots",
+      "name_zh": "Bamboo Shoots",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 27.0,
+          "p": 2.6,
+          "c": 5.2,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 27.0,
+          "p": 2.6,
+          "c": 5.2,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kimchi",
+      "name_en": "Kimchi",
+      "name_zh": "Kimchi",
+      "category": "veg",
+      "emoji": "🥦",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 15.0,
+          "p": 1.1,
+          "c": 2.4,
+          "f": 0.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 15.0,
+          "p": 1.1,
+          "c": 2.4,
+          "f": 0.5
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "name_en": "Apple",
+      "name_zh": "苹果",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 52.0,
+          "p": 0.3,
+          "c": 13.8,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 52.0,
+          "p": 0.3,
+          "c": 13.8,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "banana",
+      "name_en": "Banana",
+      "name_zh": "香蕉",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 89.0,
+          "p": 1.1,
+          "c": 22.8,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 89.0,
+          "p": 1.1,
+          "c": 22.8,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "name_en": "Orange",
+      "name_zh": "Orange",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 47.0,
+          "p": 0.9,
+          "c": 11.8,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 47.0,
+          "p": 0.9,
+          "c": 11.8,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mandarin",
+      "name_en": "Mandarin",
+      "name_zh": "Mandarin",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 53.0,
+          "p": 0.8,
+          "c": 13.3,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 53.0,
+          "p": 0.8,
+          "c": 13.3,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "grapes",
+      "name_en": "Grapes",
+      "name_zh": "Grapes",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 69.0,
+          "p": 0.7,
+          "c": 18.1,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 69.0,
+          "p": 0.7,
+          "c": 18.1,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "strawberries",
+      "name_en": "Strawberries",
+      "name_zh": "Strawberries",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 32.0,
+          "p": 0.7,
+          "c": 7.7,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 32.0,
+          "p": 0.7,
+          "c": 7.7,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "blueberries",
+      "name_en": "Blueberries",
+      "name_zh": "Blueberries",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 57.0,
+          "p": 0.7,
+          "c": 14.5,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 57.0,
+          "p": 0.7,
+          "c": 14.5,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "raspberries",
+      "name_en": "Raspberries",
+      "name_zh": "Raspberries",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 52.0,
+          "p": 1.2,
+          "c": 11.9,
+          "f": 0.7
+        },
+        {
+          "basis": "cooked",
+          "kcal": 52.0,
+          "p": 1.2,
+          "c": 11.9,
+          "f": 0.7
+        }
+      ]
+    },
+    {
+      "id": "blackberries",
+      "name_en": "Blackberries",
+      "name_zh": "Blackberries",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 43.0,
+          "p": 1.4,
+          "c": 10.2,
+          "f": 0.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 43.0,
+          "p": 1.4,
+          "c": 10.2,
+          "f": 0.5
+        }
+      ]
+    },
+    {
+      "id": "pineapple",
+      "name_en": "Pineapple",
+      "name_zh": "Pineapple",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 50.0,
+          "p": 0.5,
+          "c": 13.1,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 50.0,
+          "p": 0.5,
+          "c": 13.1,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "mango",
+      "name_en": "Mango",
+      "name_zh": "Mango",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 60.0,
+          "p": 0.8,
+          "c": 15.0,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 60.0,
+          "p": 0.8,
+          "c": 15.0,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "papaya",
+      "name_en": "Papaya",
+      "name_zh": "Papaya",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 43.0,
+          "p": 0.5,
+          "c": 10.8,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 43.0,
+          "p": 0.5,
+          "c": 10.8,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "kiwi",
+      "name_en": "Kiwi",
+      "name_zh": "Kiwi",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 61.0,
+          "p": 1.1,
+          "c": 14.7,
+          "f": 0.5
+        },
+        {
+          "basis": "cooked",
+          "kcal": 61.0,
+          "p": 1.1,
+          "c": 14.7,
+          "f": 0.5
+        }
+      ]
+    },
+    {
+      "id": "watermelon",
+      "name_en": "Watermelon",
+      "name_zh": "Watermelon",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 30.0,
+          "p": 0.6,
+          "c": 7.6,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 30.0,
+          "p": 0.6,
+          "c": 7.6,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "cantaloupe",
+      "name_en": "Cantaloupe",
+      "name_zh": "Cantaloupe",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 34.0,
+          "p": 0.8,
+          "c": 8.2,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 34.0,
+          "p": 0.8,
+          "c": 8.2,
+          "f": 0.2
+        }
+      ]
+    },
+    {
+      "id": "pear",
+      "name_en": "Pear",
+      "name_zh": "Pear",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 57.0,
+          "p": 0.4,
+          "c": 15.2,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 57.0,
+          "p": 0.4,
+          "c": 15.2,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "peach",
+      "name_en": "Peach",
+      "name_zh": "Peach",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 39.0,
+          "p": 0.9,
+          "c": 9.5,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 39.0,
+          "p": 0.9,
+          "c": 9.5,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "plum",
+      "name_en": "Plum",
+      "name_zh": "Plum",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 46.0,
+          "p": 0.7,
+          "c": 11.4,
+          "f": 0.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 46.0,
+          "p": 0.7,
+          "c": 11.4,
+          "f": 0.3
+        }
+      ]
+    },
+    {
+      "id": "pomegranate",
+      "name_en": "Pomegranate",
+      "name_zh": "Pomegranate",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 83.0,
+          "p": 1.7,
+          "c": 18.7,
+          "f": 1.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 83.0,
+          "p": 1.7,
+          "c": 18.7,
+          "f": 1.2
+        }
+      ]
+    },
+    {
+      "id": "lychee",
+      "name_en": "Lychee",
+      "name_zh": "Lychee",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 66.0,
+          "p": 0.8,
+          "c": 16.5,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 66.0,
+          "p": 0.8,
+          "c": 16.5,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "dragon_fruit",
+      "name_en": "Dragon Fruit",
+      "name_zh": "Dragon Fruit",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 50.0,
+          "p": 1.1,
+          "c": 11.0,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 50.0,
+          "p": 1.1,
+          "c": 11.0,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "longan",
+      "name_en": "Longan",
+      "name_zh": "Longan",
+      "category": "fruit",
+      "emoji": "🍌",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 60.0,
+          "p": 1.3,
+          "c": 15.1,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 60.0,
+          "p": 1.3,
+          "c": 15.1,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "milk_2",
+      "name_en": "Milk 2%",
+      "name_zh": "Milk 2%",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 50.0,
+          "p": 3.4,
+          "c": 4.8,
+          "f": 2.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 50.0,
+          "p": 3.4,
+          "c": 4.8,
+          "f": 2.0
+        }
+      ]
+    },
+    {
+      "id": "milk_skim",
+      "name_en": "Milk Skim",
+      "name_zh": "Milk Skim",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 34.0,
+          "p": 3.4,
+          "c": 5.0,
+          "f": 0.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 34.0,
+          "p": 3.4,
+          "c": 5.0,
+          "f": 0.1
+        }
+      ]
+    },
+    {
+      "id": "whole_milk",
+      "name_en": "Whole Milk",
+      "name_zh": "Whole Milk",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 61.0,
+          "p": 3.2,
+          "c": 4.8,
+          "f": 3.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 61.0,
+          "p": 3.2,
+          "c": 4.8,
+          "f": 3.3
+        }
+      ]
+    },
+    {
+      "id": "greek_yogurt_nonfat",
+      "name_en": "Greek Yogurt Nonfat",
+      "name_zh": "Greek Yogurt Nonfat",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 59.0,
+          "p": 10.0,
+          "c": 3.6,
+          "f": 0.4
+        },
+        {
+          "basis": "cooked",
+          "kcal": 59.0,
+          "p": 10.0,
+          "c": 3.6,
+          "f": 0.4
+        }
+      ]
+    },
+    {
+      "id": "greek_yogurt_whole",
+      "name_en": "Greek Yogurt Whole",
+      "name_zh": "Greek Yogurt Whole",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 97.0,
+          "p": 9.0,
+          "c": 3.9,
+          "f": 5.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 97.0,
+          "p": 9.0,
+          "c": 3.9,
+          "f": 5.0
+        }
+      ]
+    },
+    {
+      "id": "plain_yogurt_low_fat",
+      "name_en": "Plain Yogurt Low Fat",
+      "name_zh": "Plain Yogurt Low Fat",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 63.0,
+          "p": 5.3,
+          "c": 7.0,
+          "f": 1.6
+        },
+        {
+          "basis": "cooked",
+          "kcal": 63.0,
+          "p": 5.3,
+          "c": 7.0,
+          "f": 1.6
+        }
+      ]
+    },
+    {
+      "id": "cottage_cheese_low_fat",
+      "name_en": "Cottage Cheese Low Fat",
+      "name_zh": "Cottage Cheese Low Fat",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 82.0,
+          "p": 11.0,
+          "c": 3.4,
+          "f": 2.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 82.0,
+          "p": 11.0,
+          "c": 3.4,
+          "f": 2.3
+        }
+      ]
+    },
+    {
+      "id": "cottage_cheese_full_fat",
+      "name_en": "Cottage Cheese Full Fat",
+      "name_zh": "Cottage Cheese Full Fat",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 98.0,
+          "p": 11.1,
+          "c": 3.4,
+          "f": 4.3
+        },
+        {
+          "basis": "cooked",
+          "kcal": 98.0,
+          "p": 11.1,
+          "c": 3.4,
+          "f": 4.3
+        }
+      ]
+    },
+    {
+      "id": "ricotta_cheese",
+      "name_en": "Ricotta Cheese",
+      "name_zh": "Ricotta Cheese",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 174.0,
+          "p": 11.3,
+          "c": 3.0,
+          "f": 13.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 174.0,
+          "p": 11.3,
+          "c": 3.0,
+          "f": 13.0
+        }
+      ]
+    },
+    {
+      "id": "mozzarella_cheese",
+      "name_en": "Mozzarella Cheese",
+      "name_zh": "Mozzarella Cheese",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 280.0,
+          "p": 28.0,
+          "c": 3.1,
+          "f": 17.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 280.0,
+          "p": 28.0,
+          "c": 3.1,
+          "f": 17.0
+        }
+      ]
+    },
+    {
+      "id": "cheddar_cheese",
+      "name_en": "Cheddar Cheese",
+      "name_zh": "Cheddar Cheese",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 403.0,
+          "p": 24.9,
+          "c": 1.3,
+          "f": 33.1
+        },
+        {
+          "basis": "cooked",
+          "kcal": 403.0,
+          "p": 24.9,
+          "c": 1.3,
+          "f": 33.1
+        }
+      ]
+    },
+    {
+      "id": "parmesan_cheese",
+      "name_en": "Parmesan Cheese",
+      "name_zh": "Parmesan Cheese",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 431.0,
+          "p": 38.0,
+          "c": 4.1,
+          "f": 29.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 431.0,
+          "p": 38.0,
+          "c": 4.1,
+          "f": 29.0
+        }
+      ]
+    },
+    {
+      "id": "cream_cheese",
+      "name_en": "Cream Cheese",
+      "name_zh": "Cream Cheese",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 342.0,
+          "p": 6.2,
+          "c": 4.1,
+          "f": 34.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 342.0,
+          "p": 6.2,
+          "c": 4.1,
+          "f": 34.0
+        }
+      ]
+    },
+    {
+      "id": "kefir_plain",
+      "name_en": "Kefir Plain",
+      "name_zh": "Kefir Plain",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 55.0,
+          "p": 3.5,
+          "c": 4.7,
+          "f": 2.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 55.0,
+          "p": 3.5,
+          "c": 4.7,
+          "f": 2.0
+        }
+      ]
+    },
+    {
+      "id": "soy_milk_unsweetened",
+      "name_en": "Soy Milk Unsweetened",
+      "name_zh": "Soy Milk Unsweetened",
+      "category": "dairy",
+      "emoji": "🥛",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 33.0,
+          "p": 3.3,
+          "c": 0.7,
+          "f": 1.8
+        },
+        {
+          "basis": "cooked",
+          "kcal": 33.0,
+          "p": 3.3,
+          "c": 0.7,
+          "f": 1.8
+        }
+      ]
+    },
+    {
+      "id": "soy_sauce",
+      "name_en": "Soy Sauce",
+      "name_zh": "Soy Sauce",
+      "category": "other",
+      "emoji": "🍽️",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 53.0,
+          "p": 8.1,
+          "c": 4.9,
+          "f": 0.6
+        },
+        {
+          "basis": "cooked",
+          "kcal": 53.0,
+          "p": 8.1,
+          "c": 4.9,
+          "f": 0.6
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "name_en": "Honey",
+      "name_zh": "Honey",
+      "category": "other",
+      "emoji": "🍽️",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 304.0,
+          "p": 0.3,
+          "c": 82.4,
+          "f": 0.0
+        },
+        {
+          "basis": "cooked",
+          "kcal": 304.0,
+          "p": 0.3,
+          "c": 82.4,
+          "f": 0.0
+        }
+      ]
+    },
+    {
+      "id": "salsa",
+      "name_en": "Salsa",
+      "name_zh": "Salsa",
+      "category": "other",
+      "emoji": "🍽️",
+      "variants": [
+        {
+          "basis": "raw",
+          "kcal": 36.0,
+          "p": 1.5,
+          "c": 7.0,
+          "f": 0.2
+        },
+        {
+          "basis": "cooked",
+          "kcal": 36.0,
+          "p": 1.5,
+          "c": 7.0,
+          "f": 0.2
+        }
+      ]
+    }
+  ]
+}
